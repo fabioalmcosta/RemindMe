@@ -67,6 +67,7 @@ namespace RemindApp
             player.Play();
 
             Form alertForm = new Form();
+            alertForm.TopMost = true;
             alertForm.StartPosition = FormStartPosition.CenterScreen;
             alertForm.Text = "Remind";
             alertForm.FormBorderStyle = FormBorderStyle.FixedDialog;

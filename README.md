@@ -28,7 +28,7 @@ Replace `<minutes>` with the desired time interval in minutes and `<reminder mes
 
 ## Installation
 
-1. Download the latest release from the [Releases](https://github.com/your-username/RemindMe/releases) page.
+1. Download the latest release from the [Releases](https://github.com/fabioalmcosta/RemindMe/raw/main/RemindMe.zip) page.
 2. Extract the contents of the downloaded ZIP file.
 3. Open a command prompt or terminal.
 4. Navigate to the directory containing the RemindMe.exe file.

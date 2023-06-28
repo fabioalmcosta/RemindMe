@@ -47,7 +47,7 @@ namespace RemindApp
             notifyIcon = new NotifyIcon();
             notifyIcon.Icon = new Icon(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "RemindMe.ico"));
             notifyIcon.Visible = true;
-            notifyIcon.Text = "Remind";
+            notifyIcon.Text = "Remind: " + message.Substring(0, Math.Min(message.Length, 15)) + "...";
             notifyIcon.MouseClick += NotifyIcon_MouseClick;
 
             timer = new System.Threading.Timer(TimerCallback, null, 0, timerMinutes * 60000); // Convert minutes to milliseconds

@@ -64,7 +64,7 @@ namespace RemindApp
 
         private void ShowAlert()
         {
-            player.Play();
+            player.PlayLooping();
 
             Form alertForm = new Form();
             alertForm.TopMost = true;

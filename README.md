@@ -1,12 +1,12 @@
 # RemindMe
 
-RemindMe is a console application for Windows that allows you to set reminders with custom messages at specified time intervals. It runs in the background and displays system tray notifications with the reminder messages.
+RemindMe is a console application for Windows that allows you to set reminders with custom messages at specified time intervals. It runs in the background and displays notifications with the reminder messages.
 
 ## Features
 
 - Set reminders at specified time intervals.
 - Customizable reminder messages.
-- System tray notifications with alert forms.
+- System tray icon with alert forms.
 - Play a sound when a reminder is triggered.
 
 ## Usage

@@ -70,6 +70,7 @@ namespace RemindApp
             alertForm.StartPosition = FormStartPosition.CenterScreen;
             alertForm.Text = "Remind";
             alertForm.FormBorderStyle = FormBorderStyle.FixedDialog;
+            alertForm.ControlBox = false;
 
             Label messageLabel = new Label();
             messageLabel.Text = message;

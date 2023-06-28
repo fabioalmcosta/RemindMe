@@ -1,6 +1,6 @@
-# ReminderMe
+# RemindMe
 
-ReminderMe is a console application for Windows that allows you to set reminders with custom messages at specified time intervals. It runs in the background and displays system tray notifications with the reminder messages.
+RemindMe is a console application for Windows that allows you to set reminders with custom messages at specified time intervals. It runs in the background and displays system tray notifications with the reminder messages.
 
 ## Features
 
@@ -15,7 +15,7 @@ ReminderMe is a console application for Windows that allows you to set reminders
 2. Navigate to the directory containing the ReminderMe.exe file.
 3. Run the application using the following command:
 ```powershell
-ReminderMe -timer <minutes> -message "<reminder message>"
+RemindMe -timer <minutes> -message "<reminder message>"
 ```
 
 Replace `<minutes>` with the desired time interval in minutes and `<reminder message>` with the custom message for the reminder.
@@ -28,10 +28,10 @@ Replace `<minutes>` with the desired time interval in minutes and `<reminder mes
 
 ## Installation
 
-1. Download the latest release from the [Releases](https://github.com/your-username/ReminderMe/releases) page.
+1. Download the latest release from the [Releases](https://github.com/your-username/RemindMe/releases) page.
 2. Extract the contents of the downloaded ZIP file.
 3. Open a command prompt or terminal.
-4. Navigate to the directory containing the ReminderMe.exe file.
+4. Navigate to the directory containing the RemindMe.exe file.
 5. Follow the usage instructions mentioned above.
 
 ## License
